@@ -1,13 +1,15 @@
+PARA RODAR O PROJETO:
 
+yarn
+yarn sequelize db:migrate
+
+Deve criar um banco de dados antes de rodar localmente chamado "fastponto"
 # Bibliotecas
 
-|                |                              |
-|----------------|------------------------------|
-| Estrutural     | MVC, REST, Express, sucrase  |
-| Banco de dados | Sequeliz ou Knex               |
-| Segurança      | Passport, JWT, Hash Interna    |
-| Auxiliares     | Consign, Yup, Eslint,  Prettier, Typescript |
-| TDD (testes)   | Jest, Super Teste             |
+| METODO      |  ROTA        | FUNÇÃO
+| GET         |      /:cnpj  | BUSCAR NO SERVIÇO DA RECEITAWS INFORMAÇÃO DO CNPJ
+| PATCH       |      /:cnpj  | ATUALIZAR AS INFORMAÇÕES DO CNPJ DO BANCO
+| DELETE      |      /:cnpj  | DELETAR AS INFORMAÇÕES DO CNPJ DO BANCO
 
 ---
 ### Bibliotecas Usadas
